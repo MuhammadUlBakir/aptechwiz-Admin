@@ -34,7 +34,7 @@ const Createproduct = () => {
   const Categorylist = async () => {
     try {
      
-      const Categorydata = await axios.get("https://tiny-pink-loafers.cyclic.app/api/Readcategory");
+      const Categorydata = await axios.get("https://tiny-pink-loafers.cyclic.app/Readcategory");
       if (Categorydata) {
         Setcategory(Categorydata.data.Categorydata);
       }
